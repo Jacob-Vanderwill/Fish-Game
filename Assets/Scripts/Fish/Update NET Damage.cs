@@ -1,3 +1,9 @@
+/*
+ * Jacob Vanderwill
+ * Created: 3/26/25
+ * Last Altered 3/26/25
+ * Create a script to update net damage based on level
+ */
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

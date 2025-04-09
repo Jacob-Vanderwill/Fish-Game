@@ -1,3 +1,9 @@
+/*
+ * Jacob Vanderwill
+ * Created: 3/29/25
+ * Last Altered 3/29/25
+ * Create a script to delete past levels
+ */
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;

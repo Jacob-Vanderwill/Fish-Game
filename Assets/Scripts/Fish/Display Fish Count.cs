@@ -1,3 +1,9 @@
+/*
+ * Jacob Vanderwill
+ * Created: 3/25/25
+ * Last Altered 3/25/25
+ * Create a script to display fish count
+ */
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;

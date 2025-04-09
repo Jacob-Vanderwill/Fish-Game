@@ -1,3 +1,9 @@
+/*
+ * Jacob Vanderwill
+ * Created: 3/18/25
+ * Last Altered 3/18/25
+ * Create script to display coin count
+ */
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;

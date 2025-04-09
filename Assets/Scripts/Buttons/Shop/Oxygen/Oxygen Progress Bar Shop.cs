@@ -1,3 +1,9 @@
+/*
+ * Jacob Vanderwill
+ * 4/3/25
+ * Last Altered: 4/3/25
+ * Create a script to update oxygen progress bar
+ */
 using Microsoft.Win32.SafeHandles;
 using System.Collections;
 using System.Collections.Generic;

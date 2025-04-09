@@ -1,8 +1,13 @@
+/*
+ * Jacob Vanderwill
+ * Created: 3/18/25
+ * Last Altered 3/18/25
+ * Create a script to display cost
+ */
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-
 public class DisplayCost : MonoBehaviour
 {
     [Tooltip("PlayerPrefs.GetInt(*string*)")]

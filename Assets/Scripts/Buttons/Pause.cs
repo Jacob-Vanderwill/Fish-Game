@@ -1,3 +1,9 @@
+/*
+ * Jacob Vanderwill
+ * Created: 3/20/25
+ * Last Altered 3/20/25
+ * Create a script to Pause the game
+ */
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;

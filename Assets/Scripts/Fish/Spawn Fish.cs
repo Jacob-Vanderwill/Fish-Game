@@ -1,3 +1,9 @@
+/*
+ * Jacob Vanderwill
+ * Created: 3/21/25
+ * Last Altered 3/21/25
+ * Create a script to spawn fish based on rarity
+ */
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

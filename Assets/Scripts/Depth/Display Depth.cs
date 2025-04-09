@@ -1,6 +1,6 @@
 /*
  * Jacob Vanderwill
- * 3/27/25
+ * Created: 3/27/25
  * Last Altered: 3/27/25
  * Create a script to display depth
  */

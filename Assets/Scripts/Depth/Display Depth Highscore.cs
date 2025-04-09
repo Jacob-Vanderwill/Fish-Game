@@ -1,3 +1,9 @@
+/*
+ * Jacob Vanderwill
+ * Created: 3/27/25
+ * Last Altered 3/27/25
+ * Create a script to display depth Highscore
+ */
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;

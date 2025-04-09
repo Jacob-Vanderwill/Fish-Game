@@ -1,3 +1,9 @@
+/*
+ * Jacob Vanderwill
+ * Created: N/A
+ * Last Altered N/A
+ * Create a script to make sound when clicking
+ */
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
