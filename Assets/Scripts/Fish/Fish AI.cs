@@ -20,10 +20,8 @@ public class FishAI : MonoBehaviour
     SpriteRenderer ThisSprite;
     Vector2 PointOfTravel;
     private Health health;
-    bool isIdle;
     bool IsTraveling;
     bool IsChasing;
-    bool IsGoingHome;
     GameObject Player;
     Stack<Vector3> BackToHome = new Stack<Vector3>();
 
@@ -51,8 +49,6 @@ public class FishAI : MonoBehaviour
     void Update()
     {
         IsChasing = false;
-        IsGoingHome = false;
-        isIdle = false;
         if (health.health <= 0)
         {
             return;
@@ -119,7 +115,6 @@ public class FishAI : MonoBehaviour
         float RandomDistance = Random.Range(0.00f, WanderingRadius);
         float RandomAngle = Random.Range(0.00f, 359.00f);
         PointOfTravel = new Vector2(RandomDistance * Mathf.Cos(RandomAngle), RandomDistance * Mathf.Sin(RandomAngle)) + home;
-        isIdle = true;
         IsTraveling = true;
     }
     private void FishChase()
@@ -139,7 +134,6 @@ public class FishAI : MonoBehaviour
 
     private void FishGoHome()
     {
-        IsGoingHome = true;
         IsTraveling = true;
         PointOfTravel = BackToHome.Peek();
         if (AtPointOfTravel())

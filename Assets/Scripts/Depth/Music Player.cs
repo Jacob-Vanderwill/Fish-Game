@@ -38,17 +38,9 @@ public class MusicPlayer : MonoBehaviour
         {  
             musicPlayer[1].volume += Time.deltaTime;
         }
-        else
-        {
-            musicPlayer[1].volume = volume;
-        }
         if(transform.position.x >= 600 && musicPlayer[2].volume < volume)
         {
             musicPlayer[2].volume += Time.deltaTime/3;
-        }
-        else
-        {
-            musicPlayer[2].volume = volume;
         }
     }
 }

@@ -260,7 +260,6 @@ public class PlayerController : MonoBehaviour
     {
         float duration = 2.5f;
         float elapsedTime = 0f;
-        print("face");
 
         DeathPanel.gameObject.SetActive(true);
         Color panelColor = DeathPanel.color;
