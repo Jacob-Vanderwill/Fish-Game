@@ -19,7 +19,6 @@ GameObject:
   - component: {fileID: 1147582644986675472}
   - component: {fileID: 5582622350152203584}
   - component: {fileID: 47884256541547339}
-  - component: {fileID: 2812402169102901041}
   - component: {fileID: -439184493751037056}
   - component: {fileID: -5958826402643251502}
   - component: {fileID: 5993621080421846570}
@@ -205,8 +204,9 @@ MonoBehaviour:
   UseCustomOxygenLevels: 0
   CustomMaxOxygenLevel: 25
   DeathPanel: {fileID: 0}
-  text: {fileID: 0}
+  DeathMessage: {fileID: 0}
   button: {fileID: 0}
+  SkelFish: {fileID: 0}
   ShieldTime: 10
   DashCooldown: 4
   DashAudio: {fileID: 8300000, guid: a1afaa419a6cc9e49b0e88276bb9d81d, type: 3}
@@ -378,20 +378,6 @@ MonoBehaviour:
   DeadFish: {fileID: 1418381154318932967, guid: 5b5aca537ba3c2b43a8cef40442cf388, type: 3}
   AudioSource: {fileID: 5025322018439556052}
   swingsound: {fileID: 8300000, guid: b3a455c728572744184ad9e84cb9312b, type: 3}
---- !u!114 &2812402169102901041
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 584956200357010522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81dcdcc3b5cf0c546aad7c9004b85fc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AudioPlayer: {fileID: 5025322018439556052}
-  volume: 0
 --- !u!114 &-439184493751037056
 MonoBehaviour:
   m_ObjectHideFlags: 0

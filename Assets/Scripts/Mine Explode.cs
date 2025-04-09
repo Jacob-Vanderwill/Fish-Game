@@ -51,7 +51,7 @@ public class MineExplode : MonoBehaviour
         Colliders = Physics2D.OverlapCircleAll(transform.position, knockbackrad);
         foreach (Collider2D col in Colliders)
         {
-            if (col.GetComponent<Rigidbody2D>() != null)
+            if (col.GetComponent<Rigidbody2D>() != null && col.GetComponent<Rigidbody2D>().bodyType == RigidbodyType2D.Dynamic)
             {
                 col.GetComponent<Rigidbody2D>().velocity += new Vector2(col.transform.position.x - transform.position.x, col.transform.position.y - transform.position.y).normalized * knockback;
             }
@@ -59,7 +59,7 @@ public class MineExplode : MonoBehaviour
         Colliders = Physics2D.OverlapCircleAll(transform.position, damagerad);
         foreach (Collider2D col in Colliders)
         {
-            if (col.GetComponent<Health>() != null)
+            if (col.GetComponent<Health>() != null && col.GetComponent<Rigidbody2D>().bodyType == RigidbodyType2D.Dynamic)
             {
                 col.GetComponent<Health>().Damage(damageamount, transform.tag);
             }

@@ -54,6 +54,10 @@ public class NetSwing : MonoBehaviour
     {
         if (PlayerController.isDead == true)
         {
+            if(ThisNet != null)
+            {
+                Destroy(ThisNet);
+            }
             return;
         }
         if (Input.GetKeyDown(KeyCode.Mouse0) && cooldownCount <= 0)
