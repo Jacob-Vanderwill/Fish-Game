@@ -1,3 +1,9 @@
+/*
+ * Jacob Vanderwill
+ * Created 3/20/25
+ * Last Altered 3/20/25
+ * Create a script to exchange fish for money
+ */
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
