@@ -1,3 +1,9 @@
+/*
+ * Jacob Vanderwill
+ * Created: 3/11/25
+ * Last Altered 3/11/25
+ * Create a script to load the Shop scene
+ */
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
