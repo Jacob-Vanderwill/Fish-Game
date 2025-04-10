@@ -3404,8 +3404,8 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -11.211724, y: -5.686528}
-  - {x: -11.211724, y: 5.1665287}
+  - {x: -11.207161, y: -5.686528}
+  - {x: -11.207161, y: 5.1665287}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -4237,7 +4237,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 0.8598501
+  m_FillAmount: 0.7339529
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -4546,6 +4546,10 @@ PrefabInstance:
       propertyPath: Tiles.Array.data[2]
       value: 
       objectReference: {fileID: 2833245424121549448, guid: e057284a203c8cb4c8dde6115d588978, type: 3}
+    - target: {fileID: 1147582644986675472, guid: 42c1f990342eab3438b2ba98a9613e2f, type: 3}
+      propertyPath: Tiles.Array.data[3]
+      value: 
+      objectReference: {fileID: 2833245424121549448, guid: 13d46cd6eb0be304eae67ef1c13e01c2, type: 3}
     - target: {fileID: 2425890171127379970, guid: 42c1f990342eab3438b2ba98a9613e2f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.6
