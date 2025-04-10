@@ -37,6 +37,7 @@ public class PlayerController : MonoBehaviour
     public GameObject SkelFish;
     [Space]
     [Header("Shield")]
+    public bool godmode;
     public float ShieldTime;
     private float shieldTimer;
     [Space]
@@ -106,13 +107,17 @@ public class PlayerController : MonoBehaviour
         text = DeathMessage.GetComponent<Image>();
 
         DeathPanel.gameObject.SetActive(false);
+        if(godmode)
+        {
+            oxygenTankSize = 1000;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
         // check if dead
-        if (isDead)
+        if (isDead && !godmode)
         {
             // death animation
             if (!hasdied)
@@ -185,7 +190,7 @@ public class PlayerController : MonoBehaviour
 
         // KEEP THIS AT THE BOTTOM
         PlayerPrefs.SetInt("IsDead", isDead ? 1 : 0);
-        if(isDead)
+        if(isDead && !godmode)
         {
             // death sound
             AudioSource.PlayOneShot(deathsound, 1.6f);
@@ -193,7 +198,7 @@ public class PlayerController : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if (isDead)
+        if (isDead && !godmode)
         {
             return;
         }

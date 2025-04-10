@@ -23,7 +23,7 @@ public class MineExplode : MonoBehaviour
     {
         Animator = GetComponent<Animator>();
         thisSR = GetComponent<SpriteRenderer>();
-        thisCollider= GetComponent<Collider2D>();
+        thisCollider = GetComponent<Collider2D>();
     }
 
     // Update is called once per frame
@@ -55,7 +55,7 @@ public class MineExplode : MonoBehaviour
         {
             if (col.GetComponent<Rigidbody2D>() != null && col.GetComponent<Rigidbody2D>().bodyType == RigidbodyType2D.Dynamic)
             {
-                col.GetComponent<Rigidbody2D>().velocity += new Vector2(col.transform.position.x - transform.position.x, col.transform.position.y - transform.position.y).normalized * knockback;
+                col.GetComponent<Rigidbody2D>().velocity += new Vector2(col.bounds.center.x - thisCollider.bounds.center.x, col.bounds.center.y - thisCollider.bounds.center.y).normalized * knockback;
             }
         }
         Colliders = Physics2D.OverlapCircleAll(thisCollider.bounds.center, damagerad);
@@ -70,6 +70,7 @@ public class MineExplode : MonoBehaviour
     }
     private void OnDrawGizmos()
     {
+        thisCollider = this.gameObject.GetComponent<Collider2D>();
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(thisCollider.bounds.center, damagerad);
         Gizmos.color = Color.blue;
