@@ -34,7 +34,10 @@ public class MusicPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(transform.position.x >= 300 && musicPlayer[1].volume < volume)
+        musicPlayer[0].loop = true;
+        musicPlayer[1].loop = true;
+        musicPlayer[2].loop = true;
+        if (transform.position.x >= 300 && musicPlayer[1].volume < volume)
         {  
             musicPlayer[1].volume += Time.deltaTime;
         }
