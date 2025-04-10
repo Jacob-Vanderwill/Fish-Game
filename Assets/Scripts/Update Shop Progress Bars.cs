@@ -1,3 +1,9 @@
+/*
+ * Jacob Vanderwill
+ * Created 4/3/25
+ * Last Altered: 4/3/25
+ * Create a script to Update progress bars in the shop
+ */
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;

@@ -1,3 +1,9 @@
+/*
+ * Jacob Vanderwill
+ * Created 3/29/25
+ * Last Altered 3/29/25
+ * Create a script to apply knockback to the fish
+ */
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
