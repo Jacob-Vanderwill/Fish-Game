@@ -832,7 +832,7 @@ PrefabInstance:
     - target: {fileID: 5816779474497924011, guid: fb1d82d0c66d91d49a2e11dfc56a645a, type: 3}
       propertyPath: FishImage
       value: 
-      objectReference: {fileID: 1655346094, guid: de0dfe463f795a64baa13b3d79f19d62, type: 3}
+      objectReference: {fileID: 367651943, guid: 5c2ecd636f70ba842a74898709409276, type: 3}
     - target: {fileID: 5816779474497924011, guid: fb1d82d0c66d91d49a2e11dfc56a645a, type: 3}
       propertyPath: PlayerPrefsName
       value: Fish8
@@ -840,7 +840,7 @@ PrefabInstance:
     - target: {fileID: 6598681919333515419, guid: fb1d82d0c66d91d49a2e11dfc56a645a, type: 3}
       propertyPath: FishImage
       value: 
-      objectReference: {fileID: 367651943, guid: 5c2ecd636f70ba842a74898709409276, type: 3}
+      objectReference: {fileID: 1655346094, guid: de0dfe463f795a64baa13b3d79f19d62, type: 3}
     - target: {fileID: 6598681919333515419, guid: fb1d82d0c66d91d49a2e11dfc56a645a, type: 3}
       propertyPath: PlayerPrefsName
       value: Fish9
@@ -1401,7 +1401,7 @@ PrefabInstance:
       objectReference: {fileID: -1347562287, guid: 008bea3642bf0954dba269e574fadb43, type: 3}
     - target: {fileID: 5816779474497924011, guid: fb1d82d0c66d91d49a2e11dfc56a645a, type: 3}
       propertyPath: PlayerPrefsName
-      value: 11
+      value: Fish11
       objectReference: {fileID: 0}
     - target: {fileID: 6598681919333515419, guid: fb1d82d0c66d91d49a2e11dfc56a645a, type: 3}
       propertyPath: PlayerPrefsName
