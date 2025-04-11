@@ -26,6 +26,7 @@ public class ExchangeFish : MonoBehaviour
 
     public void exchangeFish(int fishIndex)
     {
+        fishIndex--;
         if (PlayerPrefs.GetInt("Fish" + fishIndex) > 0)
         {
             PlayerPrefs.SetInt("Fish" + fishIndex, PlayerPrefs.GetInt("Fish" + fishIndex) - 1);
